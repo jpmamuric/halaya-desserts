@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = ({ toggleSidebar, sidebar }) => (
   <div className="header">
-      <div className="logo">Welcome</div>
+      <Link to='/' className="logo" >Welcome</Link>
       <div className="header__menu" onClick={()=>toggleSidebar(!sidebar)}>
         <div className='header__menu-logo' />
         <span>Menu</span>

@@ -8,6 +8,7 @@ import Thunk from 'redux-thunk';
 import reducers from './redux/reducers/index';
 
 import './assets/sass/main.css';
+import 'pure-react-carousel/dist/react-carousel.es.css';
 import App from './react/App';
 import registerServiceWorker from './registerServiceWorker';
 

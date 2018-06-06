@@ -12,7 +12,7 @@ Home Section
     justify-content: space-around;
     transition: all .2s;
 
-    @include responsive(tablet-portrait) {
+    @include responsive(tablet-landscape) {
       justify-content: flex-start;
       align-items: center;
       flex-direction: column;
@@ -43,7 +43,7 @@ Home Section
     }
 
     &--1 {
-      @include responsive(tablet-portrait) {
+      @include responsive(tablet-landscape) {
         display: none;
       }
     }
@@ -81,7 +81,7 @@ About Section
     font-size: 1.5rem;
     line-height: 1.5;
 
-    @include responsive(phone) {
+    @include responsive(tablet-portrait) {
       width: 100%;
     }
   }

@@ -24,6 +24,10 @@
       margin-right: .5rem;
       border-radius: 1.5rem;
     }
+
+    @include responsive(phone) {
+      display: none;
+    }
   }
 }
 

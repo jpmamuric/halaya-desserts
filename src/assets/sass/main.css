@@ -78,6 +78,9 @@ body {
       height: 3rem;
       margin-right: .5rem;
       border-radius: 1.5rem; }
+    @media only screen and (max-width: 37.5em) {
+      .header__menu {
+        display: none; } }
 
 .logo {
   text-transform: uppercase;
@@ -105,6 +108,28 @@ body {
   .sidebar-close {
     transform: translateX(-100%); }
 
+.carousel__slider--custom {
+  color: pink;
+  width: 30rem;
+  height: 20rem;
+  margin-top: 10rem;
+  box-shadow: 0 1rem 4rem rgba(0, 0, 0, 0.25); }
+  @media only screen and (min-width: 112.5em) {
+    .carousel__slider--custom {
+      width: 40rem;
+      height: 30rem; } }
+  @media only screen and (max-width: 75em) {
+    .carousel__slider--custom {
+      width: 35rem;
+      margin-top: 0; } }
+  @media only screen and (max-width: 37.5em) {
+    .carousel__slider--custom {
+      width: 30rem; } }
+  .carousel__slider--custom-1 {
+    background-color: var(--color-white); }
+  .carousel__slider--custom-2 {
+    background-color: var(--color-white); }
+
 /**************************
 Home Section
 ***************************/
@@ -112,7 +137,7 @@ Home Section
   display: flex;
   justify-content: space-around;
   transition: all .2s; }
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 75em) {
     .home__section {
       justify-content: flex-start;
       align-items: center;
@@ -135,7 +160,7 @@ Home Section
   color: var(--color-white);
   font-size: 2rem; }
 
-@media only screen and (max-width: 56.25em) {
+@media only screen and (max-width: 75em) {
   .home__carousel--1 {
     display: none; } }
 
@@ -163,6 +188,6 @@ About Section
   color: #626161;
   font-size: 1.5rem;
   line-height: 1.5; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 56.25em) {
     .about__description {
       width: 100%; } }

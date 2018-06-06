@@ -1,7 +1,10 @@
 import { combineReducers } from 'redux';
 
+
+import layout from './reducer-layout';
+
 const rootReducer = combineReducers({
-  state: (state = {}) => state
+  layout
 });
 
 export default rootReducer;

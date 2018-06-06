@@ -18,7 +18,7 @@ $breakpoint argument choices:
  1em = 16px
 */
 
-@mixin respond($breakpoint) {
+@mixin responsive($breakpoint) {
   @if $breakpoint == phone {
     // 600px / 16px (default font size) = 37.5em
     @media only screen and (max-width: 37.5em ) { @content };

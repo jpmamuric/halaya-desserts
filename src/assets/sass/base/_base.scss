@@ -1,4 +1,6 @@
 :root {
+  --color-primary: #ba82dd;
+  --color-secondary: rgba(156, 122, 241, .5);
   --color-white: #fff;
 }
 
@@ -17,4 +19,8 @@ html {
 
 a {
   text-decoration: none;
+}
+
+body {
+  background-color: var(--color-secondary);
 }
